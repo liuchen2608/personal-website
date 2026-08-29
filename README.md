@@ -1,41 +1,32 @@
-# 个人主页 / Portfolio
+# LIUCHEN · AI Product Builder Portfolio
 
-一个现代、编辑风格的响应式个人作品集页面。深色克制、暖纸质感，用于面试展示与技术实践。
+面向 AI 产品与 AI 应用岗位的个人作品集，围绕“从问题定义到可验证产品”组织内容。
 
-## ✨ 特性
+## 页面内容
 
-- **编辑式设计系统**：暖纸白 + 石墨黑，仅以 Ember 橙 `#ff682c` 作功能性点缀；Space Grotesk 400 标题、无阴影、不对称圆角
-- **GitHub 实时数据**：通过 GitHub API 拉取真实仓库（星级 / 语言 / fork），失败自动降级演示数据
-- **克制型交互**：滚动进度条、数字滚动、折线图描线入场、技能环进度动画、打字机效果
-- **项目筛选**：按类型（Web 应用 / 开源工具 / 移动端 / 设计系统）过滤项目
-- **全流程管线**：可交互的「从设计到上线」五阶段流程展示（点击 / 键盘切换）
-- **响应式**：桌面与移动端自适应
+- 清晰的 AI Product Builder 职业定位
+- Talk Town、AI Video Kit、归航三个代表项目
+- Frame → Design → Verify → Ship 产品方法
+- BiliNote、GPT Researcher、AI Product Notes 等产品架构探索
+- 桌面端与移动端响应式布局
+- 减少动态效果（`prefers-reduced-motion`）支持
 
-## 🛠 技术栈
+## 设计方向
 
-- 原生 HTML / CSS / JavaScript（零依赖，单文件）
-- IntersectionObserver 滚动动画
-- SVG 数据可视化
-- GitHub REST API
+暖纸白、石墨黑与 Ember 橙组成的编辑式视觉系统。页面刻意减少无关徽章、虚构数据和装饰性动画，让面试官可以快速识别职业定位、代表项目和工作方法。
 
-## 🚀 本地运行
-
-直接双击 `index.html`，或用任意静态服务器：
+## 本地预览
 
 ```bash
 python3 -m http.server 8000
 ```
 
-然后访问 http://localhost:8000
+打开 `http://localhost:8000`。
 
-## ⚙️ 自定义
+## 技术栈
 
-在 `index.html` 底部 `<script>` 开头修改 GitHub 用户名以显示真实仓库：
+原生 HTML、CSS 和 JavaScript，无构建依赖。
 
-```js
-const GITHUB_USERNAME = '你的用户名';
-```
-
-## 📄 License
+## License
 
 MIT
