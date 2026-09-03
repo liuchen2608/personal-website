@@ -1,41 +1,28 @@
-# 个人主页 / Portfolio
+# AI 产品经理个人作品集
 
-一个现代、编辑风格的响应式个人作品集页面。深色克制、暖纸质感，用于面试展示与技术实践。
+面向 AI 产品经理求职展示的单页个人网站，内容聚焦 AIGC 内容生产、Agent、RAG 与产品项目。
 
-## ✨ 特性
+## 设计方向
 
-- **编辑式设计系统**：暖纸白 + 石墨黑，仅以 Ember 橙 `#ff682c` 作功能性点缀；Space Grotesk 400 标题、无阴影、不对称圆角
-- **GitHub 实时数据**：通过 GitHub API 拉取真实仓库（星级 / 语言 / fork），失败自动降级演示数据
-- **克制型交互**：滚动进度条、数字滚动、折线图描线入场、技能环进度动画、打字机效果
-- **项目筛选**：按类型（Web 应用 / 开源工具 / 移动端 / 设计系统）过滤项目
-- **全流程管线**：可交互的「从设计到上线」五阶段流程展示（点击 / 键盘切换）
-- **响应式**：桌面与移动端自适应
+- 参考 Karl Design System 的扁平插画视觉语言
+- Signal Yellow `#ffe600`、Globe Azure `#007fff`、Roof Coral `#ef3b2c`
+- 超大展示字体、圆形构图、无阴影、高对比边框
+- 响应式布局，支持键盘焦点与 `prefers-reduced-motion`
 
-## 🛠 技术栈
+## 页面结构
 
-- 原生 HTML / CSS / JavaScript（零依赖，单文件）
-- IntersectionObserver 滚动动画
-- SVG 数据可视化
-- GitHub REST API
+1. AI 产品定位
+2. 个人经历与能力
+3. 产品工作方法
+4. 代表项目
+5. 联系方式
 
-## 🚀 本地运行
+## 运行
 
-直接双击 `index.html`，或用任意静态服务器：
+项目为单文件原生 HTML / CSS / JavaScript，直接打开 `index.html` 即可预览。
 
 ```bash
 python3 -m http.server 8000
 ```
 
-然后访问 http://localhost:8000
-
-## ⚙️ 自定义
-
-在 `index.html` 底部 `<script>` 开头修改 GitHub 用户名以显示真实仓库：
-
-```js
-const GITHUB_USERNAME = '你的用户名';
-```
-
-## 📄 License
-
-MIT
+访问 `http://localhost:8000`。
