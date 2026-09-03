@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+  <title id="title">liuchen2608 AI 产品作品集</title>
+  <desc id="desc">米白网格背景上的 AI 产品经理个人介绍与产品工作流程</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#dedbd2" stroke-width="1"/>
+    </pattern>
+    <style>
+      .sans{font-family:Arial,'Noto Sans SC','Microsoft YaHei',sans-serif}.mono{font-family:'Courier New','Noto Sans Mono CJK SC',monospace}
+      .ink{fill:#20201e}.muted{fill:#6f6c64}.red{fill:#c94831}.blue{fill:#267684}.green{fill:#72805c}
+    </style>
+  </defs>
+  <rect x="12" y="12" width="1176" height="516" rx="26" fill="#171715"/>
+  <rect x="4" y="4" width="1176" height="516" rx="26" fill="#f5f1e8" stroke="#20201e" stroke-width="3"/>
+  <rect x="4" y="4" width="1176" height="516" rx="26" fill="url(#grid)" opacity=".62"/>
+  <path d="M4 70H1180" stroke="#20201e" stroke-width="3"/>
+  <rect x="28" y="25" width="76" height="28" rx="14" fill="#20201e"/>
+  <text x="66" y="44" text-anchor="middle" class="mono" font-size="13" font-weight="700" fill="#fff">2608</text>
+  <text x="124" y="44" class="mono ink" font-size="13" font-weight="700" letter-spacing="2">LIUCHEN2608 // PRODUCT BUILD LOG</text>
+  <circle cx="1120" cy="38" r="5" fill="#72805c"/><text x="1145" y="43" text-anchor="end" class="mono muted" font-size="12">SIGNAL: LIVE</text>
+
+  <text x="72" y="115" class="mono red" font-size="15" font-weight="700" letter-spacing="2">AI PRODUCT MANAGER · AIGC BUILDER · CREATOR</text>
+  <text x="72" y="183" class="sans ink" font-size="57" font-weight="900">把 AI 内容生产经验</text>
+  <text x="72" y="246" class="sans ink" font-size="57" font-weight="900">做成能落地的产品。</text>
+  <text x="72" y="287" class="sans muted" font-size="17">从真实短剧生产现场发现问题，设计工作流、原型与评测方案。</text>
+  <text x="72" y="315" class="sans muted" font-size="17">让模型能力进入业务流程，也让失败样本推动下一轮迭代。</text>
+
+  <rect x="775" y="112" width="350" height="202" rx="14" fill="#171715"/>
+  <rect x="767" y="104" width="350" height="202" rx="14" fill="#faf8f2" stroke="#20201e" stroke-width="3"/>
+  <path d="M767 150H1117" stroke="#dedbd2" stroke-width="2"/>
+  <circle cx="792" cy="128" r="6" fill="#c94831"/><circle cx="812" cy="128" r="6" fill="#b8903f"/><circle cx="832" cy="128" r="6" fill="#72805c"/>
+  <text x="1095" y="132" text-anchor="end" class="mono muted" font-size="11">product@lab ~ % whoami</text>
+  <text x="794" y="187" class="mono blue" font-size="14" font-weight="700">[FIELD]</text><text x="884" y="187" class="mono ink" font-size="14">AIGC production</text>
+  <text x="794" y="220" class="mono red" font-size="14" font-weight="700">[BUILD]</text><text x="884" y="220" class="mono ink" font-size="14">CMS / Agent / RAG</text>
+  <text x="794" y="253" class="mono green" font-size="14" font-weight="700">[TEST]</text><text x="884" y="253" class="mono ink" font-size="14">eval / bad cases</text>
+  <text x="794" y="286" class="mono red" font-size="13">READY TO BUILD SOMETHING USEFUL_</text>
+
+  <path d="M72 360H1115" stroke="#c9c5ba" stroke-width="2"/>
+  <text x="72" y="389" class="mono muted" font-size="12" letter-spacing="2">CURRENT LOOP</text>
+  <path d="M116 446C230 399 333 469 448 430S664 466 780 420S994 421 1080 447" fill="none" stroke="#78766f" stroke-width="2.5" stroke-dasharray="9 10"/>
+  <g fill="#faf8f2" stroke="#20201e" stroke-width="2.5"><circle cx="116" cy="446" r="13"/><circle cx="448" cy="430" r="13"/><circle cx="780" cy="420" r="13"/><circle cx="1045" cy="439" r="13"/></g>
+  <circle cx="1104" cy="447" r="7" fill="#c94831"/>
+  <g class="mono ink" font-size="13" font-weight="700"><text x="94" y="486">DISCOVER</text><text x="430" y="486">DESIGN</text><text x="766" y="486">TEST</text><text x="1025" y="486">SHIP</text></g>
+  <text x="1105" y="492" text-anchor="end" class="mono red" font-size="12" font-weight="700">OPEN THE PRODUCT LAB →</text>
+</svg>
